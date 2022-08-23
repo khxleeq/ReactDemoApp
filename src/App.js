@@ -5,17 +5,18 @@ import Trainer from './Trainer';
 import Trainee from './Trainee';
 import Login from './Login';
 import Car from './Car';
+import Count from './count';
 
 
 
 function App() {
 
-  const header = <h1 className='header'>It's reactin' time!</h1>;
+  // const header = <h1 className='header'>It's reactin' time!</h1>;
   
-  const HeadFunc = () => <h1>Your header</h1>;
+  const HeadFunc = () => <h1 className='reactHeader'>React Counter:</h1>;
   return (
     <div className="App">
-      {header}
+      {/* {header} */}
       {/* {HeadFunc()} */}
       <HeadFunc/>
       <main>
@@ -24,7 +25,8 @@ function App() {
         <Converter/>
         <Login/>
         <Trainer name ="Reece" age={25} specialism="DevOps"/> */}
-        <Car/>
+        {/* <Car/> */}
+        <Count/>
       </main>
       <Footer/>
     </div>

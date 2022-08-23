@@ -12,7 +12,7 @@ const Car = () => {
             <h1>Details of the car:</h1>
              <p>{brand}, &nbsp;{model}</p>
              <p>{colour}</p>
-             <p>{year}</p>
+             <p>{year}</p>33666666666666666
 
              <form>
                  <label> Brand:</label>
