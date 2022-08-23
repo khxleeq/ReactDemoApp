@@ -6,6 +6,7 @@ import Trainee from './Trainee';
 import Login from './Login';
 import Car from './Car';
 import Count from './count';
+import LoginControl from './LoginControl/LoginControl';
 
 
 
@@ -13,7 +14,7 @@ function App() {
 
   // const header = <h1 className='header'>It's reactin' time!</h1>;
   
-  const HeadFunc = () => <h1 className='reactHeader'>React Counter:</h1>;
+  const HeadFunc = () => <h1 className='reactHeader'>REACT APPLICATION</h1>;
   return (
     <div className="App">
       {/* {header} */}
@@ -27,6 +28,7 @@ function App() {
         <Trainer name ="Reece" age={25} specialism="DevOps"/> */}
         {/* <Car/> */}
         <Count/>
+        {/* <LoginControl/> */}
       </main>
       <Footer/>
     </div>
