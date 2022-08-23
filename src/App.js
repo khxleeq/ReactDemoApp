@@ -1,12 +1,14 @@
-import './App.css';
-import Converter from './converter';
-import Footer from './footer';
-import Trainer from './Trainer';
-import Trainee from './Trainee';
-import Login from './Login';
-import Car from './Car';
-import Count from './count';
-import LoginControl from './LoginControl/LoginControl';
+import './styles/App.css';
+import Converter from './components/converter';
+import Footer from './components/footer';
+import Trainer from './components/Trainer';
+import Trainee from './components/Trainee';
+import Login from './components/Login';
+import Car from './components/Car';
+import Count from './components/count';
+import LoginControl from './components/LoginControl/LoginControl';
+import ProductTable from './components/ProductTable';
+
 
 
 
@@ -21,14 +23,15 @@ function App() {
       {/* {HeadFunc()} */}
       <HeadFunc/>
       <main>
-        {/* <Trainer name ="JH" age={28} specialism="Software"/>
+        <Trainer name ="JH" age={28} specialism="Software"/>
         <Trainee name = "KT" age = {23} cohort="july-enable 2022"/>
         <Converter/>
         <Login/>
-        <Trainer name ="Reece" age={25} specialism="DevOps"/> */}
-        {/* <Car/> */}
+        <Trainer name ="Reece" age={25} specialism="DevOps"/> 
+        <Car/>
         <Count/>
-        {/* <LoginControl/> */}
+        <LoginControl/>
+        <ProductTable/>
       </main>
       <Footer/>
     </div>
