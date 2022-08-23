@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Converter from './converter';
+import Footer from './footer';
+import Trainer from './Trainer';
+import Trainee from './Trainee';
+import Login from './Login';
+import Car from './Car';
+
+
 
 function App() {
+
+  const header = <h1 className='header'>It's reactin' time!</h1>;
+  
+  const HeadFunc = () => <h1>Your header</h1>;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {header}
+      {/* {HeadFunc()} */}
+      <HeadFunc/>
+      <main>
+        {/* <Trainer name ="JH" age={28} specialism="Software"/>
+        <Trainee name = "KT" age = {23} cohort="july-enable 2022"/>
+        <Converter/>
+        <Login/>
+        <Trainer name ="Reece" age={25} specialism="DevOps"/> */}
+        <Car/>
+      </main>
+      <Footer/>
     </div>
   );
 }
