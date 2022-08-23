@@ -38,7 +38,7 @@ const Count = () => {
   <div className="btn__container">
     <button className="control__btn" onClick={increase1}>+1</button>
     <button className="control__btn" onClick={decrease1}>-1</button>
-    <button className="control__btn" onClick={reset}>Reset</button>
+    <button className="reset" onClick={reset}>Reset</button>
     <button className="control__btn" onClick={increase5}>+5</button>
     <button className="control__btn" onClick={decrease5}>-5</button>
   </div>
