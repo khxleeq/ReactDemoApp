@@ -15,6 +15,7 @@ const {name, age, specialism} = props;
 }
 
 
+
 export default Trainer;
 
 
