@@ -10,6 +10,8 @@ import LoginControl from './components/LoginControl/LoginControl';
 import ProductTable from './components/ProductTable';
 import FilteredList from './components/FilteredList';
 import Cart from './components/Cart';
+import nameUpdate from './components/Hooks/NameUpdate'
+import HideText from './components/Hooks/Text';
 
 
 
@@ -36,8 +38,9 @@ function App() {
         <Count/> */}
         {/* <LoginControl/> */}
         {/* <ProductTable/> */}
-        <FilteredList/>
+        {/* <FilteredList/> */}
         {/* <Cart/> */}
+        <HideText/>
       </main>
       <Footer/>
     </div>
