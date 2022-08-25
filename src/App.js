@@ -12,6 +12,7 @@ import FilteredList from './components/FilteredList';
 import Cart from './components/Cart';
 import nameUpdate from './components/Hooks/NameUpdate'
 import HideText from './components/Hooks/Text';
+import FilmRequest from './components/filmRequest';
 
 
 
@@ -40,7 +41,8 @@ function App() {
         {/* <ProductTable/> */}
         {/* <FilteredList/> */}
         {/* <Cart/> */}
-        <HideText/>
+        {/* <HideText/> */}
+        <FilmRequest/>
       </main>
       <Footer/>
     </div>

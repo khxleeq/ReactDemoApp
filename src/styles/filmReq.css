@@ -1,0 +1,17 @@
+.filmReqTitle {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.paragraphFilm {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.btn1 {
+    background: #1abc9c;
+    color: white;
+    border: white;
+}
