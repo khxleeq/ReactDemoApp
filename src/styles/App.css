@@ -44,6 +44,14 @@
   font-size: 30px;
 }
 
+.linkContainer{ 
+  display: flex;
+justify-content: space-between;
+ background-color: #1abc9c;
+ padding: 2%;
+
+}
+
 @import "./footer.css";
 @import "./count.css";
 @import "./filmReq.css";
