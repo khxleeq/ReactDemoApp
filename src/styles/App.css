@@ -2,56 +2,61 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.reactHeader {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
+.navContainer {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  background-color: #1abc9c;
+  padding: 0.5%;
+  border-radius: 0.2em;
+  
 }
 
 .linkContainer{ 
+  font-family: Maven Pro;
   display: flex;
-justify-content: space-between;
- background-color: #1abc9c;
- padding: 2%;
+  justify-content:space-around;
+  width: 80%;
+  margin-left: 18em;
+  text-decoration: none;
+  font-weight: 500;
 
+  }
+  
+.navTitle {
+  display: flex;
+  justify-content:first baseline;
+  margin-left: 5em;
+  font-family: Pacifico;
 }
 
+.movieDetails{
+  padding-top: 2em;
+  font-family: Maven Pro
+}
+
+.RequestHeader{
+  font-family: Maven pro;
+  font-size: 35px
+}
+.RequestInput{
+  font-family: Maven Pro;
+  width: 25%
+}
+.RequestBtn{
+  font-family: Maven Pro;
+  width: 5%;
+  background-color: #1abc9c;
+
+}
 @import "./footer.css";
 @import "./count.css";
 @import "./filmReq.css";

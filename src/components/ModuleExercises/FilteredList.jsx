@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import Search from './Search';
+import Search from './';
 
 import products from '../data/Products.json';
 import Product from './Product';
